@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>Encriptador de texto</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>Encripte/Desencripte su texto :D </h1>
+        </nav>
+    </header>
+    <main>
+
+        <article>
+
+            <textarea id="text" name="textarea" placeholder="Ingrese su texto aqui :D"  rows="10" cols="50"></textarea>
+
+            <div class="botoncitos">
+
+                <button onclick="botonEncriptar()">Encriptar</button>
+                <button onclick="botonDesncriptar()">Desencriptar</button>
+
+            </div>
+        </article>
+        <article id="costado">
+            <div>
+                <p id="textoProcesado">pepepep</p>
+                <img id="mew" src="Mew giratorio.gif" alt="mew giratorio">
+                
+            </div>
+            <button class="copiar" onclick="botonCopiar()">Copiar
+                <!-- <img  id="pokeOpen"  src="removegb.png" alt='pokeball-abierta' width="55px">
+                <img id="pokeClosed"   src="pokeclosed.png" alt="pokeClose" width="55px">
+                <img id="pokeSemi"   src="pokesemiclosed.png" alt="pokesemiclosed" width="55px"> -->
+            </button>
+        </article>
+    </main>
+    
+    <footer>
+
+
+    </footer>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>

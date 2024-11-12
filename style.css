@@ -1,0 +1,110 @@
+body{
+    width:100% ;
+    height: 100%;
+    background-color: pink;
+}
+
+nav{
+    position: fixed;
+    max-width: 100%;
+    width: 100%;
+    height: 100px;
+    min-width: 450px;
+    background-color: crimson;
+    z-index: 1;
+}
+
+h1{
+    color:#fed5dc;
+    padding: 50px;
+    font-size: 26px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+main{
+    position: absolute;
+    display: grid;
+    min-width: 500px; 
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 3fr 1fr;
+    text-align: center;
+}
+
+article{
+    margin-top: 10%;
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+}
+
+#text{
+    margin: 55px  auto;
+    font-size: 20px;
+    padding: 20px;
+    width: 650px;
+    min-width: 100px;
+    height: 80%;
+    border: 0px;
+    border-radius: 20px;
+    background-color: #fed5dc;
+    color: crimson;
+    resize: none;
+}
+    p{
+    display: none;
+    color:crimson;
+    padding-top: 40%;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+    font-family:sans-serif;
+    text-align: center;
+}
+#costado{
+    background-color: #fed5dc;
+    height: 100%;
+}
+#mew{
+    display: inline;
+    position: relative;
+    top: 22%;
+    width: 200px;
+}
+.copiar{
+    position: relative;
+    margin: auto 100px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.copiar:hover{
+    background-color: pink;
+}
+/* #pokeSemi{
+    display: none;
+}
+#pokeClosed{
+    display: none;
+} */
+.botoncitos{
+    position: relative;
+    top: 20px;
+}
+
+button{
+    margin: auto 30px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 0px;
+    background-color: crimson;
+    color: pink;
+}
+
+button:hover{
+    background-color: #fed5dc;
+    border: 20px;
+    border-color: crimson;
+    color: crimson;
+}
+
